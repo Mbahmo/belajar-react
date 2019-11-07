@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+input{
+  font-size: 20px;
+}
+ul{
+  padding: 0px;
+}
+li{
+  list-style: none;
+}
