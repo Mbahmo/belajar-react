@@ -1,7 +1,10 @@
 import React from 'react';
 
-const TodoForm = () => (
+export const TodoForm = (props) => (
   <form>
-    <input type="text" onChange={this.handleInputChange} value={this.state.currentTodo}/>
+    <input type="text" onChange={props.handleInputChange} 
+    value={props.currentTodo}/>
   </form>
 ) 
+
+// export default TodoForm;
